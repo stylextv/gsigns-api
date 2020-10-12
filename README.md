@@ -7,6 +7,9 @@
 GSigns-API is a lightweight api for the plugin GSigns that allows the creation and removal of signs.
 > The github page of the plugin can be found [here](https://github.com/StylexTV/GSigns/).
 
-## Map Sending
+## Including
 
-Instead of sending a giant packet ...
+To include this api in your own plugin download the [latest release](https://github.com/StylexTV/GSigns-API/releases/) and add the following line to your `plugin.yml`:
+```bash
+depend: [GSigns]
+```
