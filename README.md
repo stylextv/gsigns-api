@@ -1,4 +1,4 @@
-![Cover Art](https://raw.githubusercontent.com/StylexTV/GSigns/master/showcase/socials/cover.png)
+![Cover Art](https://raw.githubusercontent.com/StylexTV/GSigns-API/main/showcase/socials/cover.png)
 
 # 🚩 GSigns
 [![stars](https://img.shields.io/github/stars/StylexTV/GSigns.svg?color=ffdd00)](https://GitHub.com/StylexTV/GSigns/stargazers/)
