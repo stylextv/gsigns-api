@@ -42,10 +42,10 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		if(!setupGSignsAPI()) {
-            System.out.println(getDescription().getName()+" - Disabled due to no GSigns dependency found!");
-            getServer().getPluginManager().disablePlugin(this);
-            return;
-        }
+			System.out.println(getDescription().getName()+" - Disabled due to no GSigns dependency found!");
+			getServer().getPluginManager().disablePlugin(this);
+			return;
+        	}
 		
 		new BukkitRunnable() {
 			@Override
@@ -65,16 +65,16 @@ public class Main extends JavaPlugin {
 	}
 	
 	private boolean setupGSignsAPI() {
-        if(getServer().getPluginManager().getPlugin("GSigns") == null) {
-            return false;
-        }
-        RegisteredServiceProvider<GSignsAPI> rsp = getServer().getServicesManager().getRegistration(GSignsAPI.class);
-        if(rsp == null) {
-            return false;
-        }
-        gSignsAPI = rsp.getProvider();
-        return gSignsAPI != null;
-    }
+        	if(getServer().getPluginManager().getPlugin("GSigns") == null) {
+        		return false;
+        	}
+        	RegisteredServiceProvider<GSignsAPI> rsp = getServer().getServicesManager().getRegistration(GSignsAPI.class);
+        	if(rsp == null) {
+			return false;
+		}
+		gSignsAPI = rsp.getProvider();
+		return gSignsAPI != null;
+	}
 	
 }
 ```
