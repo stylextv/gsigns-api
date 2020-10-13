@@ -3,6 +3,7 @@
 # 🔓 GSigns-API
 [![stars](https://img.shields.io/github/stars/StylexTV/GSigns-API.svg?color=ffdd00)](https://GitHub.com/StylexTV/GSigns-API/stargazers/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a33dbb19ff17460d896a7864fececab6)](https://www.codacy.com/manual/noluck942/GSigns?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=StylexTV/GSigns&amp;utm_campaign=Badge_Grade)
+[![GitHub All Releases](https://img.shields.io/github/downloads/StylexTV/GSigns-API/total.svg)](https://github.com/StylexTV/GSigns-API/releases/)
 
 GSigns-API is a lightweight api for the plugin GSigns that allows the creation and removal of signs.
 > The github page of the plugin can be found [here](https://github.com/StylexTV/GSigns/).
