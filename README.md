@@ -6,7 +6,6 @@
 
 <h4 align="center">🔓 Source code of the GSigns-API, made with love in Java.</h4>
 
-[![]()]()
 <p align="center">
   <a href="https://GitHub.com/StylexTV/GSigns-API/stargazers/">
     <img alt="stars" src="https://img.shields.io/github/stars/StylexTV/GSigns-API.svg?color=ffdd00"/>
