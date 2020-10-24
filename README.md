@@ -1,24 +1,38 @@
-![Cover Art](https://raw.githubusercontent.com/StylexTV/GSigns-API/main/showcase/cover/cover.png)
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/StylexTV/GSigns-API/master/showcase/cover/cover.png">
+  <br>
+</h1>
 
-# 🔓 GSigns-API
-[![stars](https://img.shields.io/github/stars/StylexTV/GSigns-API.svg?color=ffdd00)](https://GitHub.com/StylexTV/GSigns-API/stargazers/)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a33dbb19ff17460d896a7864fececab6)](https://www.codacy.com/manual/noluck942/GSigns?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=StylexTV/GSigns&amp;utm_campaign=Badge_Grade)
-[![GitHub All Releases](https://img.shields.io/github/downloads/StylexTV/GSigns-API/total.svg)](https://github.com/StylexTV/GSigns-API/releases/)
+<h4 align="center">🔓 Source code of the GSigns-API, made with love in Java.</h4>
 
+[![]()]()
+<p align="center">
+  <a href="https://GitHub.com/StylexTV/GSigns-API/stargazers/">
+    <img alt="stars" src="https://img.shields.io/github/stars/StylexTV/GSigns-API.svg?color=ffdd00"/>
+  </a>
+  <a href="https://www.codacy.com/manual/noluck942/GSigns?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=StylexTV/GSigns&amp;utm_campaign=Badge_Grade">
+    <img alt="Codacy Badge" src="https://app.codacy.com/project/badge/Grade/a33dbb19ff17460d896a7864fececab6"/>
+  </a>
+  <a href="https://github.com/StylexTV/GSigns-API/releases/">
+    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/StylexTV/GSigns-API/total.svg"/>
+  </a>
+  <a href="https://stylextv.gitbook.io/gsigns/developers/api" alt="Docs (gitbook)">
+    <img src="https://img.shields.io/badge/docs-gitbook-brightgreen"/>
+  </a>
+</p>
+
+## What is it?
 GSigns-API is a lightweight api for the plugin GSigns that allows the creation and removal of signs.
 > The github page of the plugin can be found [here](https://github.com/StylexTV/GSigns/).
 
-
 ## Including
-
 To include this api in your own plugin, download the [latest release](https://github.com/StylexTV/GSigns-API/releases/) and add the following line to your `plugin.yml`:
 ```bash
 depend: [GSigns]
 ```
 
-
 ## Implementing GSigns
-
 Implementing GSigns is quite simple. It requires getting the GSigns-API service from the Bukkit ServiceManager. See the example below:
 ```java
 package com.example.plugin;
